@@ -1,0 +1,12 @@
+:root {
+    --low-gradient: linear-gradient(162deg, rgba(0,0,0,0) 70%, rgba(215,40,34,0.4458158263305322) 100%);
+    --gradient-alternative: rgb(0,0,0);
+    --low-red: rgba(215,40,34,0.4458158263305322);
+    --high-gradient:linear-gradient(162deg, rgba(0,0,0,0) 70%, rgba(15, 152, 47, 0.636) 100%);
+    --high-green: rgba(15, 152, 47, 0.636);
+    --primary-color: #070e17;
+    --text-primary:#e0e1dd;
+    --text-secondary:#505050;
+    --secondary-color: #0a151e
+    
+  }

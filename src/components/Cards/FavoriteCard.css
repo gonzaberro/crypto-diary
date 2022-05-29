@@ -1,0 +1,75 @@
+.favorite-card{
+    width: 30rem;
+    height: 10rem;
+    background: var(--secondary-color);
+    margin-top: 5rem;
+    border-radius: 10px;
+    box-shadow: 5px 4px 6px -1px var(--high-green)
+
+}
+.card-gradient{
+    height: 100%;
+    background: var(--gradient-alternative);
+    background: var(--high-gradient);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+   
+}
+h1 {
+    text-align: left;
+    padding-left: 1rem;
+    color:var(--text-primary);
+    float:left
+}
+img{
+    float:left;
+    width: 30px;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+.prices-section{
+   
+}
+.price-crypto{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color:var(--text-primary);
+}
+
+.high-value{
+    color:rgb(5, 160, 5);
+    font-weight: bold;
+    margin:0px
+}
+.low-value{
+    color:rgb(189, 24, 24);
+    font-weight: bold;
+    margin:0px
+}
+.info-section{
+    display:flex;
+    justify-content: space-between;
+}
+.actual-price{
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.change-value{
+    text-align: right;
+}
+.crypto-amount{
+    color: var(--text-secondary);
+    text-align: left;
+    padding-left: 2.1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
